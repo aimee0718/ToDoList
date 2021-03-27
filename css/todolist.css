@@ -1,0 +1,143 @@
+html {
+  font-size: 10px;
+}
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  html {
+    font-size: 11px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 415px) and (max-width: 639px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 719px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 749px) {
+  html {
+    font-size: 22.5px;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 799px) {
+  html {
+    font-size: 23.5px;
+  }
+}
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 25px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(70, 130, 180, .1);
+}
+
+.w {
+  width: 25rem;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 2rem;
+  background-color: steelblue;
+}
+
+header h1 {
+  float: left;
+  line-height: 2rem;
+  font-size: .8rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+header input {
+  float: right;
+  margin: .5rem;
+  padding-left: .3rem;
+  height: 1rem;
+  line-height: 2rem;
+  width: 15rem;
+  outline: none;
+  border-radius: .2rem;
+  border: none;
+}
+
+/* section */
+section div {
+  padding-top: 1rem;
+}
+
+section h3 {
+  font-size: .8rem;
+}
+
+section h3 em {
+  float: right;
+  width: .8rem;
+  height: .8rem;
+  line-height: .8rem;
+  text-align: center;
+  font-style: normal;
+  font-size: .5rem;
+  color: #fff;
+  background-color: steelblue;
+  border-radius: 50%;
+}
+
+ol li {
+  position: relative;
+  margin-top: 1rem;
+  padding-left: 1.7rem;
+  width: 100%;
+  height: 1rem;
+  line-height: 1rem;
+  list-style: none;
+  background-color: #fff;
+  font-size: .5rem;
+  border-radius: .1rem;
+  border: 1px solid #ccc;
+}
+
+ol li input {
+  position: absolute;
+  left: .8rem;
+  top: .25rem;
+  margin-right: .2rem;
+}
+
+ol li::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: .2rem;
+  height: 1rem;
+  background-color: #5e949d;
+}
+
+ol li em{
+  position: absolute;
+  right: .2rem;
+  top: .25rem;
+  width: .5rem;
+  height: .5rem;
+  background-color: #666;
+  border-radius: 50%;
+}
